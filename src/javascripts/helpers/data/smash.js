@@ -64,5 +64,25 @@ const getSnacksWithPositions = (uid) => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
+const getAvailablePositions = () => new Promise((resolve, reject) => {
+  machineData.getMachine().then((machine) => {
+    positionData.getAllPositionsByMachineId(machine.id).then((positions) => {
+      snackPositionData.getAllSnackPositionsByMachineId(machine.id).then((snackPositions) => {
+        const newPositions = [];
+        positions.forEach((position) => {
+          const newPosition = { ...position };
+          const getSnackPosition = snackPositions.find((x) => x.positionId === newPosition.id);
+          if (!getSnackPosition) {
+            newPosition.machineId = machine.id;
+            newPositions.push(newPosition);
+          }
+        });
+        resolve(newPositions);
+      });
+    });
+  })
+    .catch((error) => reject(error));
+});
 
-export default { getCompleteMachine, getSnacksWithPositions };
+
+export default { getCompleteMachine, getSnacksWithPositions, getAvailablePositions };
