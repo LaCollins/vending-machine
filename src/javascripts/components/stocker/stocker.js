@@ -9,7 +9,7 @@ import snackPositionData from '../../helpers/data/snackPositionData';
 import machine from '../machine/machine';
 
 const deleteFromMachine = (e) => {
-  e.stopImmediatePropagation();
+  e.preventDefault();
   const { uid } = firebase.auth().currentUser;
   snackPositionData.deleteSnackPosition(e.target.id)
     .then(() => {

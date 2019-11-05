@@ -66,7 +66,7 @@ const getSnacksWithPositions = (uid) => new Promise((resolve, reject) => {
 
 const getAvailablePositions = () => new Promise((resolve, reject) => {
   machineData.getMachine().then((machine) => {
-    positionData.getAllPositionsByMachineId(machine.id).then((positions) => {
+    positionData.getAllPositionsByMachineID(machine.id).then((positions) => {
       snackPositionData.getAllSnackPositionsByMachineId(machine.id).then((snackPositions) => {
         const newPositions = [];
         positions.forEach((position) => {
