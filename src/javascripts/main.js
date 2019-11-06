@@ -14,7 +14,6 @@ const init = () => {
   authData.checkLoginStatus();
   myNavbar.logoutEvent();
   machine.buildTheMachine();
-  console.log('Welcome to Vendo-Land!');
 };
 
 init();
