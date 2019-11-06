@@ -2,41 +2,41 @@
   "snack1": {
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81CA9w96zXL._SL1500_.jpg",
     "name": "Rice Krispies Treats",
-    "price": "100",
-    "currentStocked": "2",
-    "lifetimeNum": "4",
+    "price": 100,
+    "currentStocked": 2,
+    "lifetimeNum": 4,
     "uid": "EgNbYLPjVJNGyF9f7NKESO01TDd2"
   },
   "snack2": {
     "imageUrl": "https://images.yaoota.com/M5pN74mpQH5EsuFopo3pXpIdgck=/trim/yaootaweb-production-ng/media/crawledproductimages/9690a295e064498e350aa79219ae9c587feba49c.jpg",
     "name": "Skittles",
-    "price": "75",
-    "currentStocked": "10",
-    "lifetimeNum": "40",
+    "price": 75,
+    "currentStocked": 10,
+    "lifetimeNum": 40,
     "uid": "EgNbYLPjVJNGyF9f7NKESO01TDd2"
   },
   "snack3": {
     "imageUrl": "https://cdn.shoplightspeed.com/shops/616707/files/7834026/starburst-sweet-heat-207-oz.jpg",
     "name": "Starburst",
-    "price": "50",
-    "currentStocked": "6",
-    "lifetimeNum": "50",
+    "price": 50,
+    "currentStocked": 6,
+    "lifetimeNum": 50,
     "uid": "EgNbYLPjVJNGyF9f7NKESO01TDd2"
   },
   "snack4": {
     "imageUrl": "https://i5.walmartimages.ca/images/Large/930/592/999999-5012035930592.jpg",
     "name": "Gummy Bears",
-    "price": "200",
-    "currentStocked": "10",
-    "lifetimeNum": "8",
+    "price": 200,
+    "currentStocked": 10,
+    "lifetimeNum": 8,
     "uid": "EgNbYLPjVJNGyF9f7NKESO01TDd2"
   },
   "snack5": {
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/60/M%26Ms-Wrapper-Small.jpg?1572707367202",
     "name": "M&M's",
-    "price": "70",
-    "currentStocked": "20",
-    "lifetimeNum": "3",
+    "price": 70,
+    "currentStocked": 20,
+    "lifetimeNum": 3,
     "uid": "12345"
   }  
 }
